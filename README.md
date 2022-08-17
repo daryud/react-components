@@ -1,1 +1,1 @@
-React Aplication created to construct many react custom components.
+React Aplication created to construct many custom react components.
