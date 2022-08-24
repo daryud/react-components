@@ -1,0 +1,62 @@
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: var(--color-scale-gray-9);
+    padding: 10px 20px;
+    position: relative;
+}
+
+.main {
+    flex: 1;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--color-scale-gray-0);
+}
+
+.linksContainer {
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    left: 0;
+    z-index: 9999;
+}
+
+.dropdown {
+    background-color: var(--color-scale-gray-2);
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+.nav > ul {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding: 8px 12px;
+}
+
+.nav > ul > li {
+    text-align: center;
+}
+
+.buttonDropdown {
+    background-color: var(--color-scale-gray-9);
+    border: none;
+    outline: none;
+    width: 100%;
+    cursor: pointer;
+}
